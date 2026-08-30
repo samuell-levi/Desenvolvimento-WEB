@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil Profissional</title>
+  <meta name="description" content="Perfil profissional com habilidades e formação acadêmica.">
+</head>
+<body>
+
+  <header>
+  <h1>Samuel Levi</h1>
+  <p>Estudante de Análise e Desenvolvimento de Sistemas</p>
+  
+  <figure>
+    <img src="minha foto.png" alt="Foto de perfil de Samuel Levi" width="150" height="150" style="border-radius: 50%; object-fit: cover;">
+    <figcaption>Foto de perfil</figcaption>
+  </figure>
+</header>
+
+  <main>
+    <section>
+      <h2>Habilidades</h2>
+      <ul>
+        <li>HTML Semântico</li>
+        <li>Desenvolvimento Web</li>
+        <li>Git e GitHub</li>
+      </ul>
+    </section>
+
+   <section>
+  <h2>Formação Acadêmica</h2>
+  <table border="1" style="width: 100%; max-width: 400px;">
+    <caption style="text-align: center; font-weight: bold; margin-bottom: 5px;">Cursos e Formações</caption>
+    <thead>
+      <tr>
+        <th scope="col">Curso</th>
+        <th scope="col">Instituição</th>
+        <th scope="col">Ano</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">ADS</th>
+        <td>IFPE</td>
+        <td>2026</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+  <footer>
+    <p>Contato: seuemail@exemplo.com</p>
+  </footer>
+
+</body>
+</html>
